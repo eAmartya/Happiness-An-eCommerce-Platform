@@ -1,0 +1,206 @@
+footer {
+    background-color: #1C1B1B;
+    width: 100vw;
+    color: #fff;
+    font-weight: 400;
+}
+
+.office-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.footer-title {
+    padding-bottom: 2rem;
+}
+
+.officeAddress {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+hr {
+    height: 0.7px;
+    width: 100%;
+    background-color: #AAAAAA;
+    outline: none;
+    border: none;
+    opacity: 0.4;
+}
+
+.officeName {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.fa-map-location-dot {
+    font-size: 20px;
+}
+
+.officeAddress div p {
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 2px 5px 5px 25px;
+    color: #AAAAAA;
+    line-height: 1rem;
+}
+
+.footer-head {
+    padding-top: 3rem;
+}
+
+.footer-website-content {
+    display: flex;
+    margin-top: 5rem;
+    gap: 2rem;
+    align-items: center;
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+.footer-website-content div {
+    width: 100%;
+}
+
+.foot-content {
+    font-size: 13px;
+}
+
+.logo-image {
+    width: 50px;
+}
+
+.logo-image img {
+    width: 150px;
+}
+
+.fot-title {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.fot-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3rem;
+    font-size: 13px;
+}
+
+.fot-links span,
+.fot-links i {
+    color: #fff;
+}
+
+.fot-links span {
+    padding-left: 10px;
+}
+
+.fot-links i {
+    font-size: 10px;
+}
+
+.fot-links div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.special-foot-content {
+    justify-content: unset;
+    gap: 3.3rem;
+}
+
+.social-icons {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.copyright p {
+    font-size: 10px;
+    font-weight: 400;
+    
+}
+.animate span:hover,.animate i:hover{
+    transform: translateX(20px);
+    transition: 0.5 ease-in-out;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+    .officeAddress div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .officeAddress {
+        gap: 1rem;
+    }
+
+    .officeAddress div p {
+        font-size: 10px;
+    }
+    .officeAddress div i{
+        font-size: 18px;
+    }
+
+    .officeName {
+        font-size: 20px;
+    }
+
+    .footer-head {
+        padding-top: 1rem;
+    }
+
+    .footer-website-content {
+        padding-left: 10px;
+        height: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .fot-links {
+        gap: 0.7rem;
+    }
+
+    .foot-content {
+        gap: 1rem;
+    }
+
+    .aboutCompany {
+        padding: 5px;
+        width: 100%;
+        line-break: normal;
+    }
+    .office-title{
+        padding-top: 1rem;
+        font-size: 20px;
+    }
+}
